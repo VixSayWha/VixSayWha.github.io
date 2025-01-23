@@ -6,3 +6,114 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#yummy-cool-colors{
+    text-align: center;
+    font-family: cursive;
+}
+
+#Russian-Violet{
+    background-color: #320E3B;
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    padding: 24px;
+}
+
+#Thulain-Pink{
+    background-color: #E56399;
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    padding: 24px;
+}
+
+#Vista-Blue{
+    background-color: #7F96FF;
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    padding: 24px;
+}
+
+#Light-Blue{
+   background-color: #A6CFD5;
+   font-family: cursive;
+   text-align: center;
+   color: white;
+   padding: 24px; 
+}
+
+#Light-Cyan{
+    background-color: #DBFCFF;
+    font-family: cursive;
+    text-align: center;
+    color: black;
+    padding: 24px;
+}
+
+#Lime-Cookie{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+}
+
+#Celadon-Area{
+    background-color: #B7F0AD;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 24px;
+}
+
+#Mindaro-Area{
+    background-color: #D2FF96;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    padding: 24px;
+}
+
+#Mindaro-Area2{
+    background-color: #EDFF7A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    padding: 24px;
+}
+
+#Misery-Area{
+    text-align: center;
+    font-family: monospace;
+}
+
+#Raisin-Black{
+    background-color: #1b172b;
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    padding: 24px;
+}
+
+#English-Violet{
+    background-color: #534b62;
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    padding: 24px;
+}
+
+#Rose-Quartz{
+    background-color: #A499b3;
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    padding: 24px;
+}
+
+#Thistle-Area{
+    background-color: #d0bcd5;
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    padding: 24px;
+}
