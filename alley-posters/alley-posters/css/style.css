@@ -1,0 +1,23 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.skrunky-cat-3{
+    border: 10px ridge darkcyan;
+    height: 125px;
+}
+
+.skrunky-cat-2{
+    border: 10px ridge darkcyan;
+    height: 150px;
+}
+
+.skrunky-cat-1{
+    border: 10px ridge darkcyan;
+    height: 100px;
+}
