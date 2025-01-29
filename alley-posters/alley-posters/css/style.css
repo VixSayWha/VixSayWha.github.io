@@ -7,17 +7,25 @@
     Good luck, and have fun!
 */
 
-.skrunky-cat-3{
-    border: 10px ridge darkcyan;
+.skrunky-cat-3 {
+    border: 10px ridge silver;
     height: 125px;
+    border-radius: 10%;
+    margin: 24px;
 }
 
-.skrunky-cat-2{
-    border: 10px ridge darkcyan;
+.skrunky-cat-2 {
+    border: 10px ridge silver;
     height: 150px;
+    border-radius: 10%;
+    margin: 24px;
 }
 
-.skrunky-cat-1{
-    border: 10px ridge darkcyan;
+.skrunky-cat-1 {
+    border: 10px ridge silver;
     height: 100px;
+    border-radius: 10%;
+    margin-top: 59px;
+    margin-right: 24px;
+    transform: rotate(5deg);
 }
