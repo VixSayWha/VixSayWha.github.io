@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.all-colors{
+    padding-left: 20%;
+    height: 575px;
+    background-color: brown;
+}
