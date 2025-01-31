@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-column-contanier{
+    display: flex;
+}
+
+.sidebar-content{
+    flex: 1;
+}
+
+.main-page-content{
+    flex: 2;
+    padding: 15px;
+}
+
+.gameplay-content{
+    display: flex;
+}
