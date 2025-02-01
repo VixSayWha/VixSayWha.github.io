@@ -6,3 +6,23 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+.blog{
+    display: grid;
+    grid-template-columns: 1fr 500px 300px 1fr;
+    grid-template-areas: ". main-area sidebar .";
+}
+
+.categories{
+    grid-area: sidebar;
+}
+
+#heading-1{
+    padding-left: 150px;
+}
+
+#kuromi-and-melody{
+    width: 350px;
+    height: 200px;
+    padding-left: 150px;
+}
