@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+  grid-template-areas: 
+  "sidebar-left main sidebar-right";
+}
+
+.sidebar-left{
+  grid-area: sidebar-left;
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  grid-area: main;
+}
+
+.sidebar-right{
+  grid-area: sidebar-right;
+}
+
+.header{
+  text-align: center;
+}
+
+#cinnamon-roll{
+  border-radius: 17%;
+}
+
+#closeup{
+  border-radius: 17%;
+}
+
+#main-roll{
+padding: 25px;
+  width: 700px;
+}
+
+#side{
+  width: 100px;
+  border-radius: 17%;
+}
+
+#mini{
+  width: 100px;
+  border-radius: 17%;
+}
+
+#back{
+  width: 100px;
+  border-radius: 17%;
+}
+
+#twins{
+  width: 100px;
+  border-radius: 17%;
+}
+
+#some-random-picture{
+  width: 24px;
+}
+
+.buy-it-now{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border-radius: 24px;
+}
+
+.add-to-cart{
+  border: solid;
+  border-color: blue;
+  color: blue;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.add-to-wish{
+  border: solid;
+  border-color: blue;
+  color: blue;
+  border-radius: 24px;
+  text-align: center;
+}
