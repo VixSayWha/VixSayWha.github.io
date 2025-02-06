@@ -7,22 +7,63 @@ body {
     font-family: sans-serif;
 }
 
-.blog{
+.melody-and-kuromi{
+    width: 400px;
+}
+
+.melody{
+    width: 400px;
+}
+
+.kuromi{
+    width: 400px;
+}
+
+
+.dots-1{
+    list-style-type: circle;
+}
+
+.dots-2{
+    list-style-type: circle;
+}
+
+.container{
     display: grid;
-    grid-template-columns: 1fr 500px 300px 1fr;
-    grid-template-areas: ". main-area sidebar .";
+    grid-template-columns: 1fr 250px;
+}
+
+.recent-post{
+    border: 5px solid #FF5C98;
+    background-color: #FFC8DD;
+    padding: 24px;
+    margin: 24px;
+    border-radius: 24px;
+    color: white;
+    width: 250px;
 }
 
 .categories{
-    grid-area: sidebar;
+    border: 5px solid #FF5C98;
+    background-color: #FFC8DD;
+    padding: 24px;
+    margin: 24px;
+    border-radius: 24px;
+    color: white;
+    width: 250px;
 }
 
-#heading-1{
-    padding-left: 150px;
+.main{
+    border: 5px solid #FF5C98;
+    background-color: #FFC8DD;
+    border-radius: 24px;
+    color: white;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
 }
 
-#kuromi-and-melody{
-    width: 350px;
-    height: 200px;
-    padding-left: 150px;
+body{
+    background-color: #FFEBF2;
+    background: linear-gradient(#FFEBF2,#FF5C98);
 }
