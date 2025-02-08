@@ -14,15 +14,40 @@
     border-radius: 20px;
     padding: 10px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px;
+    height: 545px;
+}
+
+.card-style-2 img{
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 200px;
 }
 
 .animagram-header{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    width: 300px;
+    font-size: 25px;
 }
 
-.card-style-2 img{
-    width: 200px;
-    border-radius: 50%;
-    margin: 60px;
+.animagram-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 24px;
+}
+
+.card-style-2 p{
+    width: 250px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.card-style-2 h2{
+    margin: 24px 0px;
 }
