@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.anime-cards{
+
+}
+
+.cards{
+    width: 300px;
+    background:linear-gradient(to bottom,#14213D,#23396C);
+    box-shadow: -4px 4px 12px black;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px;
+}
+
+.card-image img{
+    width: 250px;
+    border-radius: 24px;
+    margin-top: 24px;
+}
+
+.heading{
+    background-color: #000000;
+    border-radius: 24px 24px 0px 0px;
+    color: aliceblue;
+    width: 300px;
+    text-align: center;
+    font-size: larger;
+}
+
+.info{
+    font-weight: bold;
+    font-style: italic;
+    color: aliceblue;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px;
+}
