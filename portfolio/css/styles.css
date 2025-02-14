@@ -32,6 +32,17 @@ body {
     font-style: normal;
 }
 
+#hero a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: grey;
+    font-family: "Anton SC", serif;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 #layout-1 {
     max-width: 800px;
     margin: 48px auto;
