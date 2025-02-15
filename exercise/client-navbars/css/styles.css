@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar-1 {
+    background: linear-gradient(to bottom,#606C38,#283618);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-1 {
+    text-decoration: none;
+    color: #FEFAE0;
+    font-size: 25px;
+}
+
+#navbar-1 a {
+    text-decoration: none;
+    color: #FEFAE0;
+    padding: 24px;
+}
+
+#navbar-2 {
+    background: linear-gradient(to bottom,#780000,#C1121F);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: #FDF0D5;
+    padding: 24px;
+}
+
+#logo-2 {
+    text-decoration: none;
+    color: #FDF0D5;
+    font-size: 25px;
+    font-family: "Parkinsans", serif;
+}
+
+#navbar-2 .sign-up-1 {
+    background-color: #FDF0D5;
+    color: #C1121F;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Parkinsans", serif;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px;
+    min-width: 150px;
+    margin-right: 24px;
+}
+ 
