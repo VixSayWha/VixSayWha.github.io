@@ -63,3 +63,74 @@ body {
     margin-right: 24px;
 }
  
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-top {
+    background: linear-gradient(to bottom, #31263E, #44355B);
+}
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 24px 0px;
+}
+
+#navbar-top .content-column {
+    padding: 24px;
+}
+
+#logo-4 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#sign-in{
+    background-color: #FF9100;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin: 15px;
+}
+
+#navbar-second-line {
+    background: linear-gradient(to bottom,#240046,#5A189A);
+}
+
+#navbar-second-line .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-second-line a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom,#FF9100,#FF6D00);
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 1px 0px;
+}
