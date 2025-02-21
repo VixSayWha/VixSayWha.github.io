@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: aqua;
+    height: 100px;
+}
+
+#layout {
+    background-color: blue;
+    height: 400px;
+}
+
+.card {
+    background-color: blueviolet;
+    height: 75px;
+    margin: 24px;
+}
