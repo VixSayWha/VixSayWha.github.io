@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-top-1 {
+    background: linear-gradient(#FF9F1C, #FFBF69);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo a {
+    font-family: "Parkinsans", serif;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+#nav-top-content-1 a {
+    color: #FFFFFF;
+    padding-right: 12px;
+}
+
+.navbar-bottom-1 {
+    background: linear-gradient(#CBF3F0, #2EC4B6);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-bottom-1 a {
+    color: #FFFFFF;
+    font-family: "Parkinsans", serif;
+    text-decoration: none;
+    padding: 24px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.navbar-bottom-1 .dropdown-1:hover #dropdown-menu-1 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-1 {
+    position: relative;
+}
+
+#dropdown-menu-1 {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s, visibility 0.25s;
+}
+
+#dropdown-menu-1 a {
+    background-color: #2EC4B6;
+    width: 100%;
+    min-width: 100px;
+}
+
+.dropdown-1 #dropdown-menu-1 a:hover {
+    background: #26a195;
+}
+
+.navbar-bottom-1 a:hover {
+    background: linear-gradient(#2EC4B6, #CBF3F0);
+}
+
+#hero-1 {
+    background-image: url(../images/random-dog.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-conent h1 {
+    font-size: 50px;
+    font-family: "Parkinsans", serif;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 20px #FF9F1C;
+}

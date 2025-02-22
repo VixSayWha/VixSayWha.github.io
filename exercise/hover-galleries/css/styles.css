@@ -10,15 +10,45 @@ body {
 .header {
     background-color: aqua;
     height: 100px;
+    text-align: center;
 }
 
 #layout {
-    background-color: blue;
-    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
-    background-color: blueviolet;
-    height: 75px;
+    width: 250px;
+    height: 250px;
     margin: 24px;
+}
+
+.card:hover {
+    scale: 2.0;
+}
+
+#devil-card-1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 24px;
+}
+
+#devil-card-2 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 24px;
+}
+
+#devil-card-3 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 24px;
+}
+
+#devil-card-4 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 24px;
 }
