@@ -8,6 +8,10 @@ body {
     font-family: sans-serif;
 }
 
+#homepage {
+    background-color: #756FD6;
+}
+
 #nav-bar-1 {
     background: linear-gradient(to bottom,   #00B8EB,  #96C0E7);
     display: flex;
@@ -79,7 +83,7 @@ body {
     background-size: cover;
     background-position: center center;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #hero-1-content {
@@ -117,9 +121,17 @@ body {
 .cards-1 {
     display: flex;
     text-align: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.cards-1
+#content-1-cards-1:hover {
+    transform: scale(1.09) rotate(-2deg);
+}
+
+#content-1-cards-1 a:hover {
+    background-color: #0c335f;
+}
 
 #content-1-cards-1 {
     background-image:linear-gradient(to bottom, #3D3A70, rgba(0, 128, 0, 0)), url(../images/food.jpg);
@@ -134,12 +146,21 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: 0.3s ease-in-out;
 }
 
 #content-1-cards-1 h1 {
     font-family: "Raleway", serif;
     color: #FFFFFF;
     font-size: 30px;
+}
+
+#content-1-cards-2:hover {
+    transform: scale(1.09) rotate(2deg);
+}
+
+#content-1-cards-2 a:hover {
+    background-color: #0c335f;
 }
 
 #content-1-cards-2 {
@@ -156,12 +177,21 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: 0.3s ease-in-out;
 }
 
 #content-1-cards-2 h1 {
     font-family: "Raleway", serif;
     color: #FFFFFF;
     font-size: 30px;
+}
+
+#content-1-cards-3:hover {
+    transform: scale(1.09) rotate(-2deg);
+}
+
+#content-1-cards-3 a:hover {
+    background-color: #0c335f;
 }
 
 #content-1-cards-3 {
@@ -178,6 +208,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: 0.3s ease-in-out;
 }
 
 #content-1-cards-3 h1 {
@@ -194,4 +225,171 @@ body {
     background: #155CAB;
     padding: 12px;
     border-radius: 12px;
+}
+
+#content-1 {
+    margin-bottom: 100px;
+}
+
+#content-1 h1 {
+    font-family: "Raleway", serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 900;
+}
+
+#footer-1 {
+    background: linear-gradient(to bottom,   #00B8EB,  #96C0E7);
+    text-align: center;
+    color: white;
+    padding: 12px;
+}
+
+#menu {
+    background-color: #756FD6;
+}
+
+#hero-2 {
+    background-image:linear-gradient(to bottom, #3D3A70, rgba(0, 128, 0, 0)), url(../images/Steakhouse-Calzone.webp);
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 50px;
+    padding: 35px;
+}
+
+#hero-2-content h1 {
+    font-family: "Raleway", serif;
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+#hero-2-content a {
+    text-decoration: none;
+    font-family: "Raleway", serif;
+    font-weight: 800;
+    color: #FFFFFF;
+    background: #756FD6;
+    padding: 12px;
+    border-radius: 12px;
+    transition: 0.3s ease-in-out;
+}
+
+#hero-2-content a:hover {
+    background-color: #0c335f;
+}
+
+#hero-2-content p {
+    font-size: 25px;
+    width: 50%;
+    font-weight: 700;
+    margin-top: 25px;
+    color: #FFFFFF;
+    font-family: "Raleway", serif;
+}
+
+#cards-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 24px;
+}
+
+#cards-2 img {
+    width: 300px;
+    transition: 0.3s ease-in-out;
+}
+
+#cards-2 img:hover {
+    transform: scale(1.18)
+}
+
+#column-1 div {
+    text-align: center;
+    font-family: "Raleway", serif;
+    color: #FFFFFF;
+    border-radius: 24px;
+    background: linear-gradient(to bottom, #155CAB,  #695AA7);
+    margin: 12px;
+    padding: 12px;
+    height: 500px;
+    transition: 0.3s ease-in-out;
+    box-shadow:-4px 4px 12px #3D3A70;
+}
+
+#column-1 div:hover {
+    transform: rotate(-4deg);
+}
+
+#column-1 h1 {
+    margin: 0px;
+    text-align: center;
+    font-weight: 900;
+}
+
+#column-1 p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#column-2 div {
+    text-align: center;
+    font-family: "Raleway", serif;
+    color: #FFFFFF;
+    border-radius: 24px;
+    background: linear-gradient(to bottom, #155CAB,  #695AA7);
+    margin: 12px;
+    padding: 15px;
+    height: 500px;
+    transition: 0.3s ease-in-out;
+    box-shadow:-4px 4px 12px #3D3A70;
+}
+
+#column-2 div:hover {
+    transform: rotate(4deg);
+}
+
+#column-2 h1 {
+    margin: 0px;
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+#column-2 p {
+    font-size: 19px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#column-3 div {
+    text-align: center;
+    font-family: "Raleway", serif;
+    color: #FFFFFF;
+    border-radius: 24px;
+    background: linear-gradient(to bottom, #155CAB,  #695AA7);
+    margin: 12px;
+    padding: 5px;
+    height: 500px;
+    transition: 0.3s ease-in-out;
+    box-shadow:-4px 4px 12px #3D3A70;
+}
+
+#column-3 div:hover {
+    transform: rotate(-4deg);
+}
+
+#column-3 h1 {
+    margin: 0px;
+    text-align: center;
+    font-weight: 900;
+}
+
+#column-3 p {
+    font-size: 19px;
+    font-weight: 500;
 }
