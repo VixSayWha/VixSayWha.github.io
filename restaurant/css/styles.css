@@ -35,9 +35,7 @@ body {
     font-weight: 600;
     font-size: 25px;
     color: #FFFFFF;
-    margin: auto;
-    margin: 30px;
-    display: inline-block;
+    display: flex;
     transition: 0.3s ease-in-out;
 }
 
@@ -392,4 +390,21 @@ body {
 #column-3 p {
     font-size: 19px;
     font-weight: 500;
+}
+
+/* TABLET BREAKPOINT */
+@media screen and (max-width: 800px) {
+
+    #nav-bar-1 {
+
+    }
+
+    #nav-bar-1 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #nav-content-1 a {
+
+    }
 }
