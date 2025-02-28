@@ -20,14 +20,15 @@ body {
 }
 
 #nav-bar-1 img {
-    width: 200px;
-    height: 190px;
-    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    padding-left: 24px;
 }
 
-#nav-content-1 {
-    margin: auto;
+#mobile-image {
+    display: none;
 }
+
 
 #nav-content-1 a {
     text-decoration: none;
@@ -35,17 +36,15 @@ body {
     font-weight: 600;
     font-size: 25px;
     color: #FFFFFF;
-    display: flex;
     transition: 0.3s ease-in-out;
+    padding: 4px;
+    margin: 24px;
+    display: inline-block;
 }
 
 #nav-content-1 a:hover {
     color: #155CAB;
     transform: scale(1.2);
-}
-
-#nav-content-2 {
-    padding-right: 100px;
 }
 
 #nav-content-2 h2 {
@@ -394,17 +393,13 @@ body {
 
 /* TABLET BREAKPOINT */
 @media screen and (max-width: 800px) {
-
-    #nav-bar-1 {
-
+    #main-image {
+        display: none;
     }
 
-    #nav-bar-1 img {
-        width: 100px;
-        height: 100px;
+    #mobile-image {
+        display: block;
     }
-
-    #nav-content-1 a {
-
-    }
+    
+    
 }
