@@ -247,7 +247,7 @@ body {
 }
 
 #hero-2 {
-    background-image:linear-gradient(to bottom, #3D3A70, rgba(0, 128, 0, 0)), url(../images/Steakhouse-Calzone.webp);
+    background-image:linear-gradient(to bottom, #3D3A70, rgba(0, 128, 0, 0)), url(../images/Steakhouse-Calzone.png);
     height: 80vh;
     background-size: cover;
     background-position: center center;
@@ -401,5 +401,48 @@ body {
         display: block;
     }
     
+    #nav-content-1 a {
+        margin: 1px;
+
+    }
+
+    #column-2 div {
+        width: 250px;
+    }
+
+    #column-2 img {
+        width: 200px;
+    }
     
+    #column-2 p {
+        font-size: 15px;
+    }
+
+    #column-1 div {
+        width: 250px;
+    }
+
+    #column-1 img {
+        width: 200px;
+    }
+
+    #column-1 p {
+        font-size: 15px;
+    }
+
+    #column-3 div {
+        width: 250px;
+    }
+
+    #column-3 img {
+        width: 200px;
+    }
+
+    #column-3 p {
+        font-size: 15px;
+    }
+
+    #hero-2-content p {
+        font-size: 22px;
+    }
 }
