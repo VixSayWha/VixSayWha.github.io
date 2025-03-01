@@ -47,10 +47,15 @@ body {
     transform: scale(1.2);
 }
 
+#nav-content-2 {
+    margin-right: 24px;
+}
+
 #nav-content-2 h2 {
     font-family: "Raleway", serif;
     font-size: 25px;
     color: #FFFFFF;
+    margin: 0px;
 }
 
 #nav-content-2-cta-buttons {
@@ -283,6 +288,7 @@ body {
     font-weight: 700;
     margin-top: 25px;
     color: #FFFFFF;
+    margin-bottom: 50px;
     font-family: "Raleway", serif;
 }
 
@@ -403,46 +409,52 @@ body {
     
     #nav-content-1 a {
         margin: 1px;
+        display: flex;
+        font-size: 20px;
 
     }
 
-    #column-2 div {
-        width: 250px;
+    #nav-content-2 h2 {
+        font-size: 20px;
+        text-align: center;
     }
+
+    #nav-content-2 a {
+        font-size: 12px;
+    }
+
+    #cards-2 {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
 
     #column-2 img {
-        width: 200px;
+        width: 250px;
     }
     
     #column-2 p {
-        font-size: 15px;
-    }
-
-    #column-1 div {
-        width: 250px;
+        font-size: 20px;
     }
 
     #column-1 img {
-        width: 200px;
-    }
-
-    #column-1 p {
-        font-size: 15px;
-    }
-
-    #column-3 div {
         width: 250px;
     }
 
+    #column-1 p {
+        font-size: 20px;
+    }
+
     #column-3 img {
-        width: 200px;
+        width: 250px;
     }
 
     #column-3 p {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     #hero-2-content p {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
